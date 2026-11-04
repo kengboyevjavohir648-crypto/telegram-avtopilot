@@ -1,5 +1,5 @@
 {
- "offset": 455926801,
+ "offset": 455926804,
  "drafts": {
   "5": {
    "kind": "tip",
@@ -8,7 +8,10 @@
    "created": "2026-11-04T16:27+05:00"
   }
  },
- "seen_news": [],
+ "seen_news": [
+  "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+  "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds"
+ ],
  "tips_done": [
   "NotebookLM"
  ],
