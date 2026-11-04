@@ -1,18 +1,32 @@
 {
- "offset": 455926805,
+ "offset": 455926806,
  "drafts": {
   "5": {
    "kind": "tip",
    "key": "NotebookLM",
    "ctl": 6,
    "created": "2026-11-04T16:27+05:00"
+  },
+  "16": {
+   "kind": "news",
+   "key": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+   "ctl": 17,
+   "created": "2026-11-04T16:50+05:00"
+  },
+  "18": {
+   "kind": "news",
+   "key": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
+   "ctl": 19,
+   "created": "2026-11-04T16:50+05:00"
   }
  },
  "seen_news": [
   "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
   "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
   "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
-  "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/"
+  "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+  "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+  "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/"
  ],
  "tips_done": [
   "NotebookLM"
