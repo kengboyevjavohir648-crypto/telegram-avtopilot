@@ -1,12 +1,15 @@
 name: Telegram avtopilot
 
+# Bot ~5,5 soat uzluksiz tinglaydi (tugmalar darhol ishlaydi), keyin o'zini qayta ishga tushiradi.
+# Jadval faqat zaxira: bot biror sabab bilan to'xtab qolsa, 30 daqiqa ichida qayta tiklanadi.
 on:
   schedule:
-    - cron: "*/15 * * * *"   # har 15 daqiqada (GitHub ba'zan 5-15 daqiqa kechiktiradi)
-  workflow_dispatch:          # Actions sahifasidan qo'lda ishga tushirish
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: telegram-bot
@@ -15,7 +18,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
 
@@ -27,8 +30,9 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Botni ishga tushirish
-        run: python bot.py
+        run: python bot.py --listen 330
         env:
+          PYTHONUNBUFFERED: "1"
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           ADMIN_ID: ${{ secrets.ADMIN_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -39,4 +43,13 @@ jobs:
           git config user.name "telegram-avtopilot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add state.json
-          git diff --cached --quiet || (git commit -m "holat yangilandi" && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "holat yangilandi"
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 5; done
+
+      # Faqat muvaffaqiyatli tugaganda: xato bo'lsa cheksiz qayta-qayta ishga tushib ketmasin
+      - name: Keyingi navbatni ishga tushirish
+        if: success()
+        run: gh workflow run telegram.yml --ref main
+        env:
+          GH_TOKEN: ${{ github.token }}
