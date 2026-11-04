@@ -1,9 +1,22 @@
 {
- "offset": 455926800,
- "drafts": {},
+ "offset": 455926801,
+ "drafts": {
+  "5": {
+   "kind": "tip",
+   "key": "NotebookLM",
+   "ctl": 6,
+   "created": "2026-11-04T16:27+05:00"
+  }
+ },
  "seen_news": [],
- "tips_done": [],
+ "tips_done": [
+  "NotebookLM"
+ ],
  "reels_done": [],
  "queue_done": [],
- "slots_done": []
+ "slots_done": [
+  "2026-11-04 09:00",
+  "2026-11-04 12:30",
+  "2026-11-04 15:00"
+ ]
 }
