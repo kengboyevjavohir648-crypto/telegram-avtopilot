@@ -1,5 +1,5 @@
 {
- "offset": 455926806,
+ "offset": 455926809,
  "drafts": {
   "5": {
    "kind": "tip",
@@ -13,11 +13,17 @@
    "ctl": 17,
    "created": "2026-11-04T16:50+05:00"
   },
-  "18": {
+  "21": {
    "kind": "news",
-   "key": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
-   "ctl": 19,
-   "created": "2026-11-04T16:50+05:00"
+   "key": "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk",
+   "ctl": 22,
+   "created": "2026-11-04T16:55+05:00"
+  },
+  "23": {
+   "kind": "news",
+   "key": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+   "ctl": 24,
+   "created": "2026-11-04T16:55+05:00"
   }
  },
  "seen_news": [
@@ -26,7 +32,9 @@
   "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
   "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
   "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
-  "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/"
+  "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
+  "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk",
+  "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps"
  ],
  "tips_done": [
   "NotebookLM"
