@@ -1,5 +1,5 @@
 {
- "offset": 455926809,
+ "offset": 455926816,
  "drafts": {
   "5": {
    "kind": "tip",
@@ -19,11 +19,11 @@
    "ctl": 22,
    "created": "2026-11-04T16:55+05:00"
   },
-  "23": {
+  "26": {
    "kind": "news",
-   "key": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
-   "ctl": 24,
-   "created": "2026-11-04T16:55+05:00"
+   "key": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
+   "ctl": 27,
+   "created": "2026-11-04T17:04+05:00"
   }
  },
  "seen_news": [
@@ -34,16 +34,24 @@
   "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
   "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
   "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk",
-  "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps"
+  "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+  "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
+  "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+  "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+  "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta"
  ],
  "tips_done": [
   "NotebookLM"
  ],
- "reels_done": [],
+ "reels_done": [
+  "01_top5_ai_2026.mp4"
+ ],
  "queue_done": [],
  "slots_done": [
   "2026-11-04 09:00",
   "2026-11-04 12:30",
-  "2026-11-04 15:00"
+  "2026-11-04 15:00",
+  "2026-11-04 18:00",
+  "2026-11-04 20:00"
  ]
 }
