@@ -1,0 +1,23 @@
+{
+  "channel": "@Javohiraipro",
+  "footer": "👉 <a href=\"https://t.me/Javohiraipro\">Javohir | AI va Texnologiyalar</a>",
+  "utc_offset": 5,
+  "schedule": {
+    "09:00": "news",
+    "12:30": "tip",
+    "15:00": "queue",
+    "18:00": "news",
+    "20:00": "reel"
+  },
+  "news_per_slot": 2,
+  "news_max_age_hours": 36,
+  "max_late_hours": 2,
+  "gemini_model": "gemini-2.5-flash",
+  "news_feeds": [
+    {"name": "TechCrunch", "url": "https://techcrunch.com/category/artificial-intelligence/feed/"},
+    {"name": "The Verge", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"},
+    {"name": "VentureBeat", "url": "https://venturebeat.com/category/ai/feed/"},
+    {"name": "OpenAI", "url": "https://openai.com/news/rss.xml"},
+    {"name": "Google AI", "url": "https://blog.google/technology/ai/rss/"}
+  ]
+}
