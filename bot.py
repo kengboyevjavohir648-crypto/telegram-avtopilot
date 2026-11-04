@@ -123,45 +123,51 @@ def strip_tags(s):
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", s or ""))).strip()
 
 
-_model = None
+_models = None
 
 
-def gemini_model():
-    """Config'dagi model o'chirilgan bo'lsa, mavjudlari ichidan eng yangi 'flash' modelini tanlaydi."""
-    global _model
-    if _model:
-        return _model
-    _model = GEMINI_MODEL
+def gemini_models():
+    """Sinab ko'riladigan modellar: avval 'latest' taxallusi, keyin config'dagisi, keyin eng yangi 'flash'lar.
+    Google eski modellarni ro'yxatda qoldirsa ham yangi kalitlarga 404 qaytaradi, shuning uchun bir nechtasi kerak."""
+    global _models
+    if _models is not None:
+        return _models
+    names = []
     try:
         r = requests.get("https://generativelanguage.googleapis.com/v1beta/models",
                          headers={"x-goog-api-key": GEMINI_KEY}, params={"pageSize": 1000}, timeout=30)
         r.raise_for_status()
         names = [m["name"].split("/", 1)[-1] for m in r.json().get("models", [])
                  if "generateContent" in m.get("supportedGenerationMethods", [])]
-        if names and GEMINI_MODEL not in names:
-            skip = ("lite", "preview", "exp", "image", "tts", "live", "audio", "thinking")
-            flash = sorted(n for n in names if "flash" in n and not any(s in n for s in skip))
-            if "gemini-flash-latest" in names:
-                _model = "gemini-flash-latest"
-            elif flash:
-                _model = flash[-1]
-            else:
-                _model = names[0]
     except Exception as e:
         print("model ro'yxatini olib bo'lmadi:", e)
-    print("Gemini model:", _model)
-    return _model
+    skip = ("lite", "preview", "exp", "image", "tts", "live", "audio", "thinking")
+    flash = sorted((n for n in names if "flash" in n and not any(s in n for s in skip)), reverse=True)
+    _models = list(dict.fromkeys(["gemini-flash-latest", GEMINI_MODEL] + flash))
+    return _models
 
 
 def gemini_json(prompt):
-    r = requests.post(
-        f"https://generativelanguage.googleapis.com/v1beta/models/{gemini_model()}:generateContent",
-        headers={"x-goog-api-key": GEMINI_KEY},
-        json={"contents": [{"parts": [{"text": prompt}]}],
-              "generationConfig": {"temperature": 0.7, "responseMimeType": "application/json"}},
-        timeout=90)
-    r.raise_for_status()
-    return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
+    last = None
+    for model in list(gemini_models()):
+        r = requests.post(
+            f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+            headers={"x-goog-api-key": GEMINI_KEY},
+            json={"contents": [{"parts": [{"text": prompt}]}],
+                  "generationConfig": {"temperature": 0.7, "responseMimeType": "application/json"}},
+            timeout=90)
+        if r.status_code == 404:
+            print("Gemini model mavjud emas:", model)
+            _models.remove(model)
+            last = r
+            continue
+        r.raise_for_status()
+        if _models[0] != model:
+            _models.remove(model)
+            _models.insert(0, model)
+        print("Gemini model:", model)
+        return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
+    raise RuntimeError(f"ishlaydigan Gemini modeli topilmadi (oxirgi javob: {last.status_code if last else '-'})")
 
 
 def translate(text):
@@ -174,7 +180,8 @@ def translate(text):
 
 def notify(text):
     try:
-        tg("sendMessage", chat_id=ADMIN_ID, text=f"⚠️ {text}"[:4000])
+        tg("sendMessage", chat_id=ADMIN_ID, text=f"⚠️ {text}"[:4000],
+           link_preview_options=json.dumps({"is_disabled": True}))
     except Exception as e:
         print("notify failed:", e)
 
@@ -223,7 +230,13 @@ def news_post(it):
 
 
 def news_post_translate(it):
-    body = f"<b>📰 {fmt(translate(it['title']))}</b>\n\n{fmt(translate(it['summary'][:700]))}"
+    try:
+        body = f"<b>📰 {fmt(translate(it['title']))}</b>\n\n{fmt(translate(it['summary'][:700]))}"
+    except Exception as e:
+        # Google Translate GitHub serverlarini ba'zan cheklaydi (429) — unda asl matn, tahrirlash uchun
+        print("tarjima ishlamadi, asl matn qoldirildi:", e)
+        body = (f"🇬🇧 <i>Tarjima qilinmadi — chiqarishdan oldin tahrirlang</i>\n\n"
+                f"<b>📰 {fmt(it['title'])}</b>\n\n{fmt(it['summary'][:700])}")
     return news_footer(it, body)
 
 
