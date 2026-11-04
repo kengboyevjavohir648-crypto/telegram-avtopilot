@@ -16,6 +16,7 @@ import os
 import pathlib
 import re
 import sys
+import time
 
 import feedparser
 import requests
@@ -148,26 +149,34 @@ def gemini_models():
 
 
 def gemini_json(prompt):
+    """404 — model yo'q, ro'yxatdan chiqariladi; 429/5xx — Google band, keyingi modelga o'tiladi.
+    Hammasi band bo'lsa, biroz kutib yana bir aylana sinaladi."""
     last = None
-    for model in list(gemini_models()):
-        r = requests.post(
-            f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
-            headers={"x-goog-api-key": GEMINI_KEY},
-            json={"contents": [{"parts": [{"text": prompt}]}],
-                  "generationConfig": {"temperature": 0.7, "responseMimeType": "application/json"}},
-            timeout=90)
-        if r.status_code == 404:
-            print("Gemini model mavjud emas:", model)
-            _models.remove(model)
-            last = r
-            continue
-        r.raise_for_status()
-        if _models[0] != model:
-            _models.remove(model)
-            _models.insert(0, model)
-        print("Gemini model:", model)
-        return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
-    raise RuntimeError(f"ishlaydigan Gemini modeli topilmadi (oxirgi javob: {last.status_code if last else '-'})")
+    for attempt in range(3):
+        if attempt:
+            time.sleep(8 * attempt)
+        for model in list(gemini_models()):
+            r = requests.post(
+                f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+                headers={"x-goog-api-key": GEMINI_KEY},
+                json={"contents": [{"parts": [{"text": prompt}]}],
+                      "generationConfig": {"temperature": 0.7, "responseMimeType": "application/json"}},
+                timeout=90)
+            last = r.status_code
+            if r.status_code == 404:
+                print("Gemini model mavjud emas:", model)
+                _models.remove(model)
+                continue
+            if r.status_code == 429 or r.status_code >= 500:
+                print(f"Gemini band ({r.status_code}):", model)
+                continue
+            r.raise_for_status()
+            if _models[0] != model:
+                _models.remove(model)
+                _models.insert(0, model)
+            print("Gemini model:", model)
+            return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
+    raise RuntimeError(f"Gemini javob bermadi (oxirgi kod: {last})")
 
 
 def translate(text):
