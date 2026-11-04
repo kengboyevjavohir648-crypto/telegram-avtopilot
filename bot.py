@@ -29,7 +29,7 @@ TZ = dt.timezone(dt.timedelta(hours=CONFIG.get("utc_offset", 5)))
 # Nusxalashda qo'shilib qoladigan bo'sh joy, yangi qator va boshqa ortiqcha qismlarni tozalaymiz
 _tok = re.search(r"\d{6,}:[\w-]{30,}", os.environ.get("BOT_TOKEN", ""))
 TOKEN = _tok.group(0) if _tok else ""
-ADMIN_ID = re.sub(r"[^\d-]", "", os.environ.get("ADMIN_ID", ""))
+ADMIN_ID = re.sub(r"[^\d-]", "", os.environ.get("ADMIN_ID", "") or str(CONFIG.get("admin_id", "")))
 GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", CONFIG.get("gemini_model", "gemini-2.5-flash"))
 
@@ -123,9 +123,39 @@ def strip_tags(s):
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", s or ""))).strip()
 
 
+_model = None
+
+
+def gemini_model():
+    """Config'dagi model o'chirilgan bo'lsa, mavjudlari ichidan eng yangi 'flash' modelini tanlaydi."""
+    global _model
+    if _model:
+        return _model
+    _model = GEMINI_MODEL
+    try:
+        r = requests.get("https://generativelanguage.googleapis.com/v1beta/models",
+                         headers={"x-goog-api-key": GEMINI_KEY}, params={"pageSize": 1000}, timeout=30)
+        r.raise_for_status()
+        names = [m["name"].split("/", 1)[-1] for m in r.json().get("models", [])
+                 if "generateContent" in m.get("supportedGenerationMethods", [])]
+        if names and GEMINI_MODEL not in names:
+            skip = ("lite", "preview", "exp", "image", "tts", "live", "audio", "thinking")
+            flash = sorted(n for n in names if "flash" in n and not any(s in n for s in skip))
+            if "gemini-flash-latest" in names:
+                _model = "gemini-flash-latest"
+            elif flash:
+                _model = flash[-1]
+            else:
+                _model = names[0]
+    except Exception as e:
+        print("model ro'yxatini olib bo'lmadi:", e)
+    print("Gemini model:", _model)
+    return _model
+
+
 def gemini_json(prompt):
     r = requests.post(
-        f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
+        f"https://generativelanguage.googleapis.com/v1beta/models/{gemini_model()}:generateContent",
         headers={"x-goog-api-key": GEMINI_KEY},
         json={"contents": [{"parts": [{"text": prompt}]}],
               "generationConfig": {"temperature": 0.7, "responseMimeType": "application/json"}},
@@ -185,20 +215,34 @@ def fetch_news(state, count):
 
 
 def news_post(it):
-    if GEMINI_KEY:
-        data = gemini_json(
-            "Sen o'zbek tilidagi 'Javohir | AI va Texnologiyalar' Telegram kanali muharririsan. "
-            "Quyidagi inglizcha yangilikni o'zbek tilida (lotin yozuvida), oddiy va jonli uslubda qayta yoz. "
-            "Faktlarni o'zgartirma, o'zingdan qo'shma. JSON qaytar: "
-            '{"sarlavha": "qisqa sarlavha, boshida mos emoji", '
-            '"matn": "2-4 gapdan iborat mazmun; muhim so\'zlarni **qalin** qil", '
-            '"xulosa": "1 gap: bu oddiy foydalanuvchi uchun nimani anglatadi"}\n\n'
-            f"Sarlavha: {it['title']}\nMazmun: {it['summary']}")
-        body = f"<b>{fmt(data['sarlavha'])}</b>\n\n{fmt(data['matn'])}\n\n💬 {fmt(data['xulosa'])}"
-    else:
-        body = f"<b>📰 {fmt(translate(it['title']))}</b>\n\n{fmt(translate(it['summary'][:700]))}"
+    try:
+        return news_post_gemini(it) if GEMINI_KEY else news_post_translate(it)
+    except Exception as e:
+        print("Gemini xatosi, tarjimaga o'tildi:", e)
+        return news_post_translate(it)
+
+
+def news_post_translate(it):
+    body = f"<b>📰 {fmt(translate(it['title']))}</b>\n\n{fmt(translate(it['summary'][:700]))}"
+    return news_footer(it, body)
+
+
+def news_footer(it, body):
     src = f'🔗 <a href="{html.escape(it["link"])}">Manba: {html.escape(it["source"])}</a>'
     return f"{body}\n\n{src}{footer()}"
+
+
+def news_post_gemini(it):
+    data = gemini_json(
+        "Sen o'zbek tilidagi 'Javohir | AI va Texnologiyalar' Telegram kanali muharririsan. "
+        "Quyidagi inglizcha yangilikni o'zbek tilida (lotin yozuvida), oddiy va jonli uslubda qayta yoz. "
+        "Faktlarni o'zgartirma, o'zingdan qo'shma. JSON qaytar: "
+        '{"sarlavha": "qisqa sarlavha, boshida mos emoji", '
+        '"matn": "2-4 gapdan iborat mazmun; muhim so\'zlarni **qalin** qil", '
+        '"xulosa": "1 gap: bu oddiy foydalanuvchi uchun nimani anglatadi"}\n\n'
+        f"Sarlavha: {it['title']}\nMazmun: {it['summary']}")
+    body = f"<b>{fmt(data['sarlavha'])}</b>\n\n{fmt(data['matn'])}\n\n💬 {fmt(data['xulosa'])}"
+    return news_footer(it, body)
 
 
 def do_news(state, count=None):
