@@ -1,5 +1,5 @@
 {
- "offset": 455926804,
+ "offset": 455926805,
  "drafts": {
   "5": {
    "kind": "tip",
@@ -10,7 +10,9 @@
  },
  "seen_news": [
   "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
-  "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds"
+  "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
+  "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+  "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/"
  ],
  "tips_done": [
   "NotebookLM"
