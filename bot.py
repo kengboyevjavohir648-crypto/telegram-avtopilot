@@ -26,9 +26,11 @@ STATE_PATH = ROOT / "state.json"
 CONTENT = ROOT / "content"
 TZ = dt.timezone(dt.timedelta(hours=CONFIG.get("utc_offset", 5)))
 
-TOKEN = os.environ.get("BOT_TOKEN", "")
-ADMIN_ID = os.environ.get("ADMIN_ID", "")
-GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "")
+# Nusxalashda qo'shilib qoladigan bo'sh joy, yangi qator va boshqa ortiqcha qismlarni tozalaymiz
+_tok = re.search(r"\d{6,}:[\w-]{30,}", os.environ.get("BOT_TOKEN", ""))
+TOKEN = _tok.group(0) if _tok else ""
+ADMIN_ID = re.sub(r"[^\d-]", "", os.environ.get("ADMIN_ID", ""))
+GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", CONFIG.get("gemini_model", "gemini-2.5-flash"))
 
 DRY = False
@@ -413,7 +415,13 @@ def main():
     args = ap.parse_args()
     DRY = args.dry
     if not DRY and not TOKEN:
-        sys.exit("BOT_TOKEN o'rnatilmagan.")
+        sys.exit("BOT_TOKEN topilmadi yoki noto'g'ri formatda (kerak: raqamlar:harflar).")
+    if not DRY:
+        try:
+            me = tg("getMe")
+        except RuntimeError as e:
+            sys.exit(f"Telegram tokenni qabul qilmadi ({e}). BotFather'dagi eng oxirgi tokenni qayta kiriting.")
+        print(f"Bot: @{me['username']}")
 
     state = load_state()
     try:
