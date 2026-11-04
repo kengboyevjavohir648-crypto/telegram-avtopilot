@@ -456,8 +456,9 @@ def handle_message(state, msg):
         attach_controls(state, "manual", f"msg{msg['message_id']}", msg["message_id"])
 
 
-def process_updates(state):
-    updates = tg("getUpdates", offset=state["offset"], timeout=0,
+def process_updates(state, wait=0):
+    """wait > 0 — Telegram yangi xabar kelguncha shuncha soniya ushlab turadi (long polling)."""
+    updates = tg("getUpdates", offset=state["offset"], timeout=wait,
                  allowed_updates=json.dumps(["message", "callback_query"]))
     for u in updates:
         state["offset"] = u["update_id"] + 1
@@ -478,6 +479,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry", action="store_true", help="Telegram'ga yubormay, faqat ekranga chiqarish")
     ap.add_argument("--force", choices=list(JOBS), help="jadvalni kutmay shu ishni bajarish")
+    ap.add_argument("--listen", type=float, default=0, metavar="DAQIQA",
+                    help="shuncha daqiqa uzluksiz tinglash: tugmalar darhol ishlaydi")
     args = ap.parse_args()
     DRY = args.dry
     if not DRY and not TOKEN:
@@ -490,14 +493,30 @@ def main():
         print(f"Bot: @{me['username']}")
 
     state = load_state()
+    deadline = time.monotonic() + args.listen * 60
     try:
-        process_updates(state)
-        if not ADMIN_ID and not DRY:
-            print("ADMIN_ID yo'q: botga /start yozing, u ID ni aytadi.")
-        elif args.force:
-            JOBS[args.force](state)
-        else:
-            run_schedule(state)
+        while True:
+            loop_start = time.monotonic()
+            try:
+                process_updates(state, wait=25 if args.listen and not DRY else 0)
+                if not ADMIN_ID and not DRY:
+                    print("ADMIN_ID yo'q: botga /start yozing, u ID ni aytadi.")
+                elif args.force:
+                    JOBS[args.force](state)
+                    args.force = None
+                else:
+                    run_schedule(state)
+            except Exception as e:
+                if not args.listen:
+                    raise
+                print("tinglashda xato, davom etamiz:", e)
+                time.sleep(10)
+            if not DRY:
+                save_state(state)  # ish to'xtatilsa ham holat diskda qoladi
+            if time.monotonic() >= deadline:
+                break
+            if DRY or time.monotonic() - loop_start < 1:
+                time.sleep(1)  # Telegram darhol qaytsa ham sikl aylanib ketmasin
     finally:
         if not DRY:
             save_state(state)
