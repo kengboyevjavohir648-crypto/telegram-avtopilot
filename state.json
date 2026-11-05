@@ -1,5 +1,5 @@
 {
- "offset": 455926817,
+ "offset": 455926819,
  "drafts": {
   "5": {
    "kind": "tip",
@@ -24,12 +24,6 @@
    "key": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
    "ctl": 27,
    "created": "2026-11-04T17:04+05:00"
-  },
-  "38": {
-   "kind": "news",
-   "key": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
-   "ctl": 39,
-   "created": "2026-11-05T09:01+05:00"
   }
  },
  "seen_news": [
@@ -49,7 +43,8 @@
   "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/"
  ],
  "tips_done": [
-  "NotebookLM"
+  "NotebookLM",
+  "Perplexity"
  ],
  "reels_done": [
   "01_top5_ai_2026.mp4"
@@ -61,6 +56,8 @@
   "2026-11-04 15:00",
   "2026-11-04 18:00",
   "2026-11-04 20:00",
-  "2026-11-05 09:00"
+  "2026-11-05 09:00",
+  "2026-11-05 12:30",
+  "2026-11-05 15:00"
  ]
 }
