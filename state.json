@@ -1,5 +1,5 @@
 {
- "offset": 455926819,
+ "offset": 455926821,
  "drafts": {
   "5": {
    "kind": "tip",
@@ -24,6 +24,12 @@
    "key": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
    "ctl": 27,
    "created": "2026-11-04T17:04+05:00"
+  },
+  "42": {
+   "kind": "news",
+   "key": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
+   "ctl": 43,
+   "created": "2026-11-05T18:01+05:00"
   }
  },
  "seen_news": [
@@ -40,14 +46,17 @@
   "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
   "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta",
   "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
-  "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/"
+  "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+  "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
+  "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/"
  ],
  "tips_done": [
   "NotebookLM",
   "Perplexity"
  ],
  "reels_done": [
-  "01_top5_ai_2026.mp4"
+  "01_top5_ai_2026.mp4",
+  "02_insonlarsiz_yer.mp4"
  ],
  "queue_done": [],
  "slots_done": [
@@ -58,6 +67,8 @@
   "2026-11-04 20:00",
   "2026-11-05 09:00",
   "2026-11-05 12:30",
-  "2026-11-05 15:00"
+  "2026-11-05 15:00",
+  "2026-11-05 18:00",
+  "2026-11-05 20:00"
  ]
 }
