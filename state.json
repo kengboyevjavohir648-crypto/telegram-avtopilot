@@ -1,5 +1,5 @@
 {
- "offset": 455926825,
+ "offset": 455926827,
  "drafts": {
   "5": {
    "kind": "tip",
@@ -30,12 +30,6 @@
    "key": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
    "ctl": 43,
    "created": "2026-11-05T18:01+05:00"
-  },
-  "56": {
-   "kind": "news",
-   "key": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
-   "ctl": 57,
-   "created": "2026-11-06T18:03+05:00"
   }
  },
  "seen_news": [
@@ -67,7 +61,8 @@
  ],
  "reels_done": [
   "01_top5_ai_2026.mp4",
-  "02_insonlarsiz_yer.mp4"
+  "02_insonlarsiz_yer.mp4",
+  "03_agar_internet_ochsa.mp4"
  ],
  "queue_done": [],
  "slots_done": [
@@ -84,6 +79,7 @@
   "2026-11-06 09:00",
   "2026-11-06 12:30",
   "2026-11-06 15:00",
-  "2026-11-06 18:00"
+  "2026-11-06 18:00",
+  "2026-11-06 20:00"
  ]
 }
