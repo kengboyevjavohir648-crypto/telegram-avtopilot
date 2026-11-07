@@ -1,5 +1,5 @@
 {
- "offset": 455926828,
+ "offset": 455926833,
  "drafts": {
   "5": {
    "kind": "tip",
@@ -30,18 +30,6 @@
    "key": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
    "ctl": 43,
    "created": "2026-11-05T18:01+05:00"
-  },
-  "62": {
-   "kind": "news",
-   "key": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
-   "ctl": 63,
-   "created": "2026-11-07T09:01+05:00"
-  },
-  "64": {
-   "kind": "tip",
-   "key": "CapCut avto-subtitr",
-   "ctl": 65,
-   "created": "2026-11-07T12:30+05:00"
   }
  },
  "seen_news": [
@@ -66,7 +54,9 @@
   "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
   "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
   "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
-  "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
+  "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+  "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+  "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy"
  ],
  "tips_done": [
   "NotebookLM",
@@ -77,7 +67,8 @@
  "reels_done": [
   "01_top5_ai_2026.mp4",
   "02_insonlarsiz_yer.mp4",
-  "03_agar_internet_ochsa.mp4"
+  "03_agar_internet_ochsa.mp4",
+  "04_ai_osh_manti.mp4"
  ],
  "queue_done": [],
  "slots_done": [
@@ -98,6 +89,8 @@
   "2026-11-06 20:00",
   "2026-11-07 09:00",
   "2026-11-07 12:30",
-  "2026-11-07 15:00"
+  "2026-11-07 15:00",
+  "2026-11-07 18:00",
+  "2026-11-07 20:00"
  ]
 }
