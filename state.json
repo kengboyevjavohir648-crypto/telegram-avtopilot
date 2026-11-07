@@ -1,5 +1,5 @@
 {
- "offset": 455926827,
+ "offset": 455926828,
  "drafts": {
   "5": {
    "kind": "tip",
@@ -31,17 +31,17 @@
    "ctl": 43,
    "created": "2026-11-05T18:01+05:00"
   },
-  "60": {
-   "kind": "news",
-   "key": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
-   "ctl": 61,
-   "created": "2026-11-07T09:01+05:00"
-  },
   "62": {
    "kind": "news",
    "key": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
    "ctl": 63,
    "created": "2026-11-07T09:01+05:00"
+  },
+  "64": {
+   "kind": "tip",
+   "key": "CapCut avto-subtitr",
+   "ctl": 65,
+   "created": "2026-11-07T12:30+05:00"
   }
  },
  "seen_news": [
@@ -71,7 +71,8 @@
  "tips_done": [
   "NotebookLM",
   "Perplexity",
-  "ChatGPT promt maslahati"
+  "ChatGPT promt maslahati",
+  "CapCut avto-subtitr"
  ],
  "reels_done": [
   "01_top5_ai_2026.mp4",
@@ -95,6 +96,8 @@
   "2026-11-06 15:00",
   "2026-11-06 18:00",
   "2026-11-06 20:00",
-  "2026-11-07 09:00"
+  "2026-11-07 09:00",
+  "2026-11-07 12:30",
+  "2026-11-07 15:00"
  ]
 }
