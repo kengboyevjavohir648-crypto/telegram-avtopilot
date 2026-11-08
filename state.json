@@ -1,5 +1,5 @@
 {
- "offset": 455926836,
+ "offset": 455926838,
  "drafts": {
   "5": {
    "kind": "tip",
@@ -58,7 +58,9 @@
   "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
   "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
   "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
-  "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
+  "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+  "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+  "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government"
  ],
  "tips_done": [
   "NotebookLM",
@@ -96,6 +98,9 @@
   "2026-11-07 18:00",
   "2026-11-07 20:00",
   "2026-11-08 09:00",
-  "2026-11-08 12:30"
+  "2026-11-08 12:30",
+  "2026-11-08 15:00",
+  "2026-11-08 18:00",
+  "2026-11-08 20:00"
  ]
 }
