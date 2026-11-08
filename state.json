@@ -1,5 +1,5 @@
 {
- "offset": 455926833,
+ "offset": 455926836,
  "drafts": {
   "5": {
    "kind": "tip",
@@ -30,18 +30,6 @@
    "key": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
    "ctl": 43,
    "created": "2026-11-05T18:01+05:00"
-  },
-  "72": {
-   "kind": "news",
-   "key": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
-   "ctl": 73,
-   "created": "2026-11-08T09:01+05:00"
-  },
-  "74": {
-   "kind": "news",
-   "key": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
-   "ctl": 75,
-   "created": "2026-11-08T09:02+05:00"
   }
  },
  "seen_news": [
@@ -76,7 +64,8 @@
   "NotebookLM",
   "Perplexity",
   "ChatGPT promt maslahati",
-  "CapCut avto-subtitr"
+  "CapCut avto-subtitr",
+  "Claude"
  ],
  "reels_done": [
   "01_top5_ai_2026.mp4",
@@ -106,6 +95,7 @@
   "2026-11-07 15:00",
   "2026-11-07 18:00",
   "2026-11-07 20:00",
-  "2026-11-08 09:00"
+  "2026-11-08 09:00",
+  "2026-11-08 12:30"
  ]
 }
