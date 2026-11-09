@@ -1,5 +1,5 @@
 {
- "offset": 455926838,
+ "offset": 455926841,
  "drafts": {
   "5": {
    "kind": "tip",
@@ -60,14 +60,17 @@
   "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
   "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
   "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
-  "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government"
+  "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+  "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+  "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/"
  ],
  "tips_done": [
   "NotebookLM",
   "Perplexity",
   "ChatGPT promt maslahati",
   "CapCut avto-subtitr",
-  "Claude"
+  "Claude",
+  "Gemini"
  ],
  "reels_done": [
   "01_top5_ai_2026.mp4",
@@ -101,6 +104,8 @@
   "2026-11-08 12:30",
   "2026-11-08 15:00",
   "2026-11-08 18:00",
-  "2026-11-08 20:00"
+  "2026-11-08 20:00",
+  "2026-11-09 09:00",
+  "2026-11-09 12:30"
  ]
 }
