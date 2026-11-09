@@ -1,5 +1,5 @@
 {
- "offset": 455926843,
+ "offset": 455926844,
  "drafts": {
   "5": {
    "kind": "tip",
@@ -30,12 +30,6 @@
    "key": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
    "ctl": 43,
    "created": "2026-11-05T18:01+05:00"
-  },
-  "90": {
-   "kind": "news",
-   "key": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
-   "ctl": 91,
-   "created": "2026-11-09T18:04+05:00"
   }
  },
  "seen_news": [
@@ -116,6 +110,7 @@
   "2026-11-09 09:00",
   "2026-11-09 12:30",
   "2026-11-09 15:00",
-  "2026-11-09 18:00"
+  "2026-11-09 18:00",
+  "2026-11-09 20:00"
  ]
 }
