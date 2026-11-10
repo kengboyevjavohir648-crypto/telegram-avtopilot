@@ -1,5 +1,5 @@
 {
- "offset": 455926847,
+ "offset": 455926849,
  "drafts": {
   "5": {
    "kind": "tip",
@@ -66,7 +66,9 @@
   "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
   "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
   "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
-  "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai"
+  "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+  "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+  "https://openai.com/index/closing-ai-guidance-gap-education"
  ],
  "tips_done": [
   "NotebookLM",
@@ -117,6 +119,8 @@
   "2026-11-09 20:00",
   "2026-11-10 09:00",
   "2026-11-10 12:30",
-  "2026-11-10 15:00"
+  "2026-11-10 15:00",
+  "2026-11-10 18:00",
+  "2026-11-10 20:00"
  ]
 }
