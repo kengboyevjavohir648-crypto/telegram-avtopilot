@@ -1,5 +1,5 @@
 {
- "offset": 455926849,
+ "offset": 455926853,
  "drafts": {
   "5": {
    "kind": "tip",
@@ -68,7 +68,9 @@
   "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
   "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
   "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-  "https://openai.com/index/closing-ai-guidance-gap-education"
+  "https://openai.com/index/closing-ai-guidance-gap-education",
+  "https://openai.com/index/gilbert-tobin-sam-nickless",
+  "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/"
  ],
  "tips_done": [
   "NotebookLM",
@@ -77,7 +79,8 @@
   "CapCut avto-subtitr",
   "Claude",
   "Gemini",
-  "Canva Magic Design"
+  "Canva Magic Design",
+  "Suno"
  ],
  "reels_done": [
   "01_top5_ai_2026.mp4",
@@ -121,6 +124,8 @@
   "2026-11-10 12:30",
   "2026-11-10 15:00",
   "2026-11-10 18:00",
-  "2026-11-10 20:00"
+  "2026-11-10 20:00",
+  "2026-11-11 09:00",
+  "2026-11-11 12:30"
  ]
 }
