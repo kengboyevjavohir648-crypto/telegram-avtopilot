@@ -1,5 +1,5 @@
 {
- "offset": 455926853,
+ "offset": 455926855,
  "drafts": {
   "5": {
    "kind": "tip",
@@ -70,7 +70,9 @@
   "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
   "https://openai.com/index/closing-ai-guidance-gap-education",
   "https://openai.com/index/gilbert-tobin-sam-nickless",
-  "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/"
+  "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+  "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+  "https://openai.com/index/chatgpt-plus-for-veterans"
  ],
  "tips_done": [
   "NotebookLM",
@@ -126,6 +128,8 @@
   "2026-11-10 18:00",
   "2026-11-10 20:00",
   "2026-11-11 09:00",
-  "2026-11-11 12:30"
+  "2026-11-11 12:30",
+  "2026-11-11 15:00",
+  "2026-11-11 18:00"
  ]
 }
