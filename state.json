@@ -1,5 +1,5 @@
 {
- "offset": 455926855,
+ "offset": 455926858,
  "drafts": {
   "5": {
    "kind": "tip",
@@ -30,18 +30,6 @@
    "key": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
    "ctl": 43,
    "created": "2026-11-05T18:01+05:00"
-  },
-  "112": {
-   "kind": "news",
-   "key": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
-   "ctl": 113,
-   "created": "2026-11-12T09:01+05:00"
-  },
-  "114": {
-   "kind": "news",
-   "key": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-   "ctl": 115,
-   "created": "2026-11-12T09:04+05:00"
   }
  },
  "seen_news": [
@@ -96,7 +84,8 @@
   "Claude",
   "Gemini",
   "Canva Magic Design",
-  "Suno"
+  "Suno",
+  "AI bilan fakt tekshirish"
  ],
  "reels_done": [
   "01_top5_ai_2026.mp4",
@@ -146,6 +135,7 @@
   "2026-11-11 15:00",
   "2026-11-11 18:00",
   "2026-11-11 20:00",
-  "2026-11-12 09:00"
+  "2026-11-12 09:00",
+  "2026-11-12 12:30"
  ]
 }
