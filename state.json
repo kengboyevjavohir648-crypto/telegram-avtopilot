@@ -30,6 +30,18 @@
    "key": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
    "ctl": 43,
    "created": "2026-11-05T18:01+05:00"
+  },
+  "118": {
+   "kind": "news",
+   "key": "https://openai.com/business/customer-stories/holidays-extras-codex",
+   "ctl": 119,
+   "created": "2026-11-12T18:01+05:00"
+  },
+  "120": {
+   "kind": "news",
+   "key": "https://openai.com/index/children-first-declaration",
+   "ctl": 121,
+   "created": "2026-11-12T18:02+05:00"
   }
  },
  "seen_news": [
@@ -74,7 +86,9 @@
   "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
   "https://openai.com/index/chatgpt-plus-for-veterans",
   "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
-  "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+  "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+  "https://openai.com/business/customer-stories/holidays-extras-codex",
+  "https://openai.com/index/children-first-declaration"
  ],
  "tips_done": [
   "NotebookLM",
@@ -136,6 +150,9 @@
   "2026-11-11 18:00",
   "2026-11-11 20:00",
   "2026-11-12 09:00",
-  "2026-11-12 12:30"
+  "2026-11-12 12:30",
+  "2026-11-12 15:00",
+  "2026-11-12 18:00",
+  "2026-11-12 20:00"
  ]
 }
