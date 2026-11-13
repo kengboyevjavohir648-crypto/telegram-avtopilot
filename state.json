@@ -1,5 +1,5 @@
 {
- "offset": 455926861,
+ "offset": 455926863,
  "drafts": {
   "5": {
    "kind": "tip",
@@ -42,18 +42,6 @@
    "key": "https://openai.com/index/children-first-declaration",
    "ctl": 121,
    "created": "2026-11-12T18:02+05:00"
-  },
-  "128": {
-   "kind": "news",
-   "key": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
-   "ctl": 129,
-   "created": "2026-11-13T18:01+05:00"
-  },
-  "130": {
-   "kind": "news",
-   "key": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
-   "ctl": 131,
-   "created": "2026-11-13T18:01+05:00"
   }
  },
  "seen_news": [
@@ -174,6 +162,7 @@
   "2026-11-13 09:00",
   "2026-11-13 12:30",
   "2026-11-13 15:00",
-  "2026-11-13 18:00"
+  "2026-11-13 18:00",
+  "2026-11-13 20:00"
  ]
 }
