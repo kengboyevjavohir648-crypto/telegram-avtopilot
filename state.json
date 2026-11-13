@@ -1,5 +1,5 @@
 {
- "offset": 455926858,
+ "offset": 455926861,
  "drafts": {
   "5": {
    "kind": "tip",
@@ -43,23 +43,17 @@
    "ctl": 121,
    "created": "2026-11-12T18:02+05:00"
   },
-  "122": {
+  "128": {
    "kind": "news",
-   "key": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
-   "ctl": 123,
-   "created": "2026-11-13T09:00+05:00"
+   "key": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+   "ctl": 129,
+   "created": "2026-11-13T18:01+05:00"
   },
-  "124": {
+  "130": {
    "kind": "news",
-   "key": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
-   "ctl": 125,
-   "created": "2026-11-13T09:01+05:00"
-  },
-  "126": {
-   "kind": "tip",
-   "key": "Google Lens",
-   "ctl": 127,
-   "created": "2026-11-13T12:30+05:00"
+   "key": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+   "ctl": 131,
+   "created": "2026-11-13T18:01+05:00"
   }
  },
  "seen_news": [
@@ -108,7 +102,9 @@
   "https://openai.com/business/customer-stories/holidays-extras-codex",
   "https://openai.com/index/children-first-declaration",
   "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
-  "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/"
+  "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+  "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+  "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/"
  ],
  "tips_done": [
   "NotebookLM",
@@ -176,6 +172,8 @@
   "2026-11-12 18:00",
   "2026-11-12 20:00",
   "2026-11-13 09:00",
-  "2026-11-13 12:30"
+  "2026-11-13 12:30",
+  "2026-11-13 15:00",
+  "2026-11-13 18:00"
  ]
 }
