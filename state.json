@@ -42,6 +42,24 @@
    "key": "https://openai.com/index/children-first-declaration",
    "ctl": 121,
    "created": "2026-11-12T18:02+05:00"
+  },
+  "122": {
+   "kind": "news",
+   "key": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+   "ctl": 123,
+   "created": "2026-11-13T09:00+05:00"
+  },
+  "124": {
+   "kind": "news",
+   "key": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+   "ctl": 125,
+   "created": "2026-11-13T09:01+05:00"
+  },
+  "126": {
+   "kind": "tip",
+   "key": "Google Lens",
+   "ctl": 127,
+   "created": "2026-11-13T12:30+05:00"
   }
  },
  "seen_news": [
@@ -88,7 +106,9 @@
   "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
   "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
   "https://openai.com/business/customer-stories/holidays-extras-codex",
-  "https://openai.com/index/children-first-declaration"
+  "https://openai.com/index/children-first-declaration",
+  "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+  "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/"
  ],
  "tips_done": [
   "NotebookLM",
@@ -99,7 +119,8 @@
   "Gemini",
   "Canva Magic Design",
   "Suno",
-  "AI bilan fakt tekshirish"
+  "AI bilan fakt tekshirish",
+  "Google Lens"
  ],
  "reels_done": [
   "01_top5_ai_2026.mp4",
@@ -153,6 +174,8 @@
   "2026-11-12 12:30",
   "2026-11-12 15:00",
   "2026-11-12 18:00",
-  "2026-11-12 20:00"
+  "2026-11-12 20:00",
+  "2026-11-13 09:00",
+  "2026-11-13 12:30"
  ]
 }
