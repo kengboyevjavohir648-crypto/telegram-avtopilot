@@ -1,5 +1,5 @@
 {
- "offset": 455926872,
+ "offset": 455926874,
  "drafts": {
   "5": {
    "kind": "tip",
@@ -98,7 +98,9 @@
   "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
   "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
   "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-  "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/"
+  "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+  "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+  "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools"
  ],
  "tips_done": [
   "NotebookLM",
@@ -180,6 +182,8 @@
   "2026-11-15 12:30",
   "2026-11-15 15:00",
   "2026-11-15 18:00",
-  "2026-11-15 20:00"
+  "2026-11-15 20:00",
+  "2026-11-16 09:00",
+  "2026-11-16 12:30"
  ]
 }
