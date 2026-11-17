@@ -1,5 +1,5 @@
 {
- "offset": 455926874,
+ "offset": 455926878,
  "drafts": {
   "5": {
    "kind": "tip",
@@ -42,18 +42,6 @@
    "key": "https://openai.com/index/children-first-declaration",
    "ctl": 121,
    "created": "2026-11-12T18:02+05:00"
-  },
-  "156": {
-   "kind": "news",
-   "key": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
-   "ctl": 157,
-   "created": "2026-11-16T18:00+05:00"
-  },
-  "158": {
-   "kind": "news",
-   "key": "https://openai.com/index/lvmh-media-division-partnership",
-   "ctl": 159,
-   "created": "2026-11-16T18:00+05:00"
   }
  },
  "seen_news": [
@@ -114,7 +102,9 @@
   "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
   "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
   "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
-  "https://openai.com/index/lvmh-media-division-partnership"
+  "https://openai.com/index/lvmh-media-division-partnership",
+  "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+  "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories"
  ],
  "tips_done": [
   "NotebookLM",
@@ -201,6 +191,7 @@
   "2026-11-16 12:30",
   "2026-11-16 15:00",
   "2026-11-16 18:00",
-  "2026-11-16 20:00"
+  "2026-11-16 20:00",
+  "2026-11-17 09:00"
  ]
 }
