@@ -72,6 +72,18 @@
    "key": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
    "ctl": 175,
    "created": "2026-11-18T18:01+05:00"
+  },
+  "183": {
+   "kind": "news",
+   "key": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
+   "ctl": 184,
+   "created": "2026-11-19T18:01+05:00"
+  },
+  "185": {
+   "kind": "news",
+   "key": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
+   "ctl": 186,
+   "created": "2026-11-19T18:03+05:00"
   }
  },
  "seen_news": [
@@ -142,7 +154,9 @@
   "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
   "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
   "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
-  "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/"
+  "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+  "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
+  "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button"
  ],
  "tips_done": [
   "NotebookLM",
@@ -242,6 +256,8 @@
   "2026-11-18 20:00",
   "2026-11-19 09:00",
   "2026-11-19 12:30",
-  "2026-11-19 15:00"
+  "2026-11-19 15:00",
+  "2026-11-19 18:00",
+  "2026-11-19 20:00"
  ]
 }
