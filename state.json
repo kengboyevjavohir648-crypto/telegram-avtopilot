@@ -78,6 +78,18 @@
    "key": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
    "ctl": 177,
    "created": "2026-11-18T18:03+05:00"
+  },
+  "178": {
+   "kind": "news",
+   "key": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+   "ctl": 179,
+   "created": "2026-11-19T09:01+05:00"
+  },
+  "180": {
+   "kind": "news",
+   "key": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+   "ctl": 181,
+   "created": "2026-11-19T09:02+05:00"
   }
  },
  "seen_news": [
@@ -146,7 +158,9 @@
   "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
   "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
   "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
-  "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/"
+  "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+  "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+  "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/"
  ],
  "tips_done": [
   "NotebookLM",
@@ -243,6 +257,7 @@
   "2026-11-18 12:30",
   "2026-11-18 15:00",
   "2026-11-18 18:00",
-  "2026-11-18 20:00"
+  "2026-11-18 20:00",
+  "2026-11-19 09:00"
  ]
 }
