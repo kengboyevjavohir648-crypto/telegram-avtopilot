@@ -84,6 +84,18 @@
    "key": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
    "ctl": 186,
    "created": "2026-11-19T18:03+05:00"
+  },
+  "187": {
+   "kind": "news",
+   "key": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+   "ctl": 188,
+   "created": "2026-11-20T09:01+05:00"
+  },
+  "189": {
+   "kind": "news",
+   "key": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+   "ctl": 190,
+   "created": "2026-11-20T09:01+05:00"
   }
  },
  "seen_news": [
@@ -156,7 +168,9 @@
   "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
   "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
   "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
-  "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button"
+  "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
+  "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+  "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/"
  ],
  "tips_done": [
   "NotebookLM",
@@ -258,6 +272,7 @@
   "2026-11-19 12:30",
   "2026-11-19 15:00",
   "2026-11-19 18:00",
-  "2026-11-19 20:00"
+  "2026-11-19 20:00",
+  "2026-11-20 09:00"
  ]
 }
