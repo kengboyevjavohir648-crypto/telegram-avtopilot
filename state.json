@@ -1,5 +1,5 @@
 {
- "offset": 455926884,
+ "offset": 455926887,
  "drafts": {
   "5": {
    "kind": "tip",
@@ -84,12 +84,6 @@
    "key": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
    "ctl": 193,
    "created": "2026-11-20T18:01+05:00"
-  },
-  "194": {
-   "kind": "news",
-   "key": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
-   "ctl": 195,
-   "created": "2026-11-20T18:03+05:00"
   }
  },
  "seen_news": [
@@ -166,7 +160,9 @@
   "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
   "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
   "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
-  "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing"
+  "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+  "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+  "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
  ],
  "tips_done": [
   "NotebookLM",
@@ -273,6 +269,8 @@
   "2026-11-20 12:30",
   "2026-11-20 15:00",
   "2026-11-20 18:00",
-  "2026-11-20 20:00"
+  "2026-11-20 20:00",
+  "2026-11-21 09:00",
+  "2026-11-21 12:30"
  ]
 }
