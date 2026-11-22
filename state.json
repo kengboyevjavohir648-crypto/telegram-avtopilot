@@ -108,6 +108,18 @@
    "key": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
    "ctl": 208,
    "created": "2026-11-22T09:03+05:00"
+  },
+  "210": {
+   "kind": "news",
+   "key": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+   "ctl": 211,
+   "created": "2026-11-22T18:01+05:00"
+  },
+  "212": {
+   "kind": "news",
+   "key": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+   "ctl": 213,
+   "created": "2026-11-22T18:03+05:00"
   }
  },
  "seen_news": [
@@ -190,7 +202,9 @@
   "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
   "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
   "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
-  "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/"
+  "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+  "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+  "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/"
  ],
  "tips_done": [
   "NotebookLM",
@@ -305,6 +319,8 @@
   "2026-11-21 20:00",
   "2026-11-22 09:00",
   "2026-11-22 12:30",
-  "2026-11-22 15:00"
+  "2026-11-22 15:00",
+  "2026-11-22 18:00",
+  "2026-11-22 20:00"
  ]
 }
