@@ -96,6 +96,18 @@
    "key": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
    "ctl": 204,
    "created": "2026-11-21T18:03+05:00"
+  },
+  "205": {
+   "kind": "news",
+   "key": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+   "ctl": 206,
+   "created": "2026-11-22T09:01+05:00"
+  },
+  "207": {
+   "kind": "news",
+   "key": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+   "ctl": 208,
+   "created": "2026-11-22T09:03+05:00"
   }
  },
  "seen_news": [
@@ -176,7 +188,9 @@
   "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
   "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
   "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
-  "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/"
+  "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+  "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+  "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/"
  ],
  "tips_done": [
   "NotebookLM",
@@ -288,6 +302,7 @@
   "2026-11-21 12:30",
   "2026-11-21 15:00",
   "2026-11-21 18:00",
-  "2026-11-21 20:00"
+  "2026-11-21 20:00",
+  "2026-11-22 09:00"
  ]
 }
