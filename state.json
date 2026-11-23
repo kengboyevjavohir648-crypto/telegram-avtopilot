@@ -114,6 +114,18 @@
    "key": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
    "ctl": 211,
    "created": "2026-11-22T18:01+05:00"
+  },
+  "219": {
+   "kind": "news",
+   "key": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+   "ctl": 220,
+   "created": "2026-11-23T18:01+05:00"
+  },
+  "221": {
+   "kind": "news",
+   "key": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+   "ctl": 222,
+   "created": "2026-11-23T18:03+05:00"
   }
  },
  "seen_news": [
@@ -200,7 +212,9 @@
   "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
   "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
   "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-  "https://www.theverge.com/tech/1039851/major-tech-outages"
+  "https://www.theverge.com/tech/1039851/major-tech-outages",
+  "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+  "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/"
  ],
  "tips_done": [
   "NotebookLM",
@@ -320,6 +334,8 @@
   "2026-11-22 20:00",
   "2026-11-23 09:00",
   "2026-11-23 12:30",
-  "2026-11-23 15:00"
+  "2026-11-23 15:00",
+  "2026-11-23 18:00",
+  "2026-11-23 20:00"
  ]
 }
