@@ -120,6 +120,18 @@
    "key": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
    "ctl": 213,
    "created": "2026-11-22T18:03+05:00"
+  },
+  "214": {
+   "kind": "news",
+   "key": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+   "ctl": 215,
+   "created": "2026-11-23T09:00+05:00"
+  },
+  "216": {
+   "kind": "news",
+   "key": "https://www.theverge.com/tech/1039851/major-tech-outages",
+   "ctl": 217,
+   "created": "2026-11-23T09:00+05:00"
   }
  },
  "seen_news": [
@@ -204,7 +216,9 @@
   "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
   "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
   "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
-  "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/"
+  "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+  "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+  "https://www.theverge.com/tech/1039851/major-tech-outages"
  ],
  "tips_done": [
   "NotebookLM",
@@ -321,6 +335,7 @@
   "2026-11-22 12:30",
   "2026-11-22 15:00",
   "2026-11-22 18:00",
-  "2026-11-22 20:00"
+  "2026-11-22 20:00",
+  "2026-11-23 09:00"
  ]
 }
