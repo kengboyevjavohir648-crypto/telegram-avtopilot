@@ -1,5 +1,5 @@
 {
- "offset": 455926887,
+ "offset": 455926890,
  "drafts": {
   "5": {
    "kind": "tip",
@@ -114,24 +114,6 @@
    "key": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
    "ctl": 211,
    "created": "2026-11-22T18:01+05:00"
-  },
-  "212": {
-   "kind": "news",
-   "key": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
-   "ctl": 213,
-   "created": "2026-11-22T18:03+05:00"
-  },
-  "214": {
-   "kind": "news",
-   "key": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-   "ctl": 215,
-   "created": "2026-11-23T09:00+05:00"
-  },
-  "216": {
-   "kind": "news",
-   "key": "https://www.theverge.com/tech/1039851/major-tech-outages",
-   "ctl": 217,
-   "created": "2026-11-23T09:00+05:00"
   }
  },
  "seen_news": [
@@ -336,6 +318,8 @@
   "2026-11-22 15:00",
   "2026-11-22 18:00",
   "2026-11-22 20:00",
-  "2026-11-23 09:00"
+  "2026-11-23 09:00",
+  "2026-11-23 12:30",
+  "2026-11-23 15:00"
  ]
 }
