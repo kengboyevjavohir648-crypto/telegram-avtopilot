@@ -126,6 +126,18 @@
    "key": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
    "ctl": 222,
    "created": "2026-11-23T18:03+05:00"
+  },
+  "223": {
+   "kind": "news",
+   "key": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+   "ctl": 224,
+   "created": "2026-11-24T09:00+05:00"
+  },
+  "225": {
+   "kind": "news",
+   "key": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+   "ctl": 226,
+   "created": "2026-11-24T09:01+05:00"
   }
  },
  "seen_news": [
@@ -214,7 +226,9 @@
   "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
   "https://www.theverge.com/tech/1039851/major-tech-outages",
   "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
-  "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/"
+  "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+  "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+  "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang"
  ],
  "tips_done": [
   "NotebookLM",
@@ -237,8 +251,6 @@
  ],
  "queue_done": [],
  "slots_done": [
-  "2026-11-04 09:00",
-  "2026-11-04 12:30",
   "2026-11-04 15:00",
   "2026-11-04 18:00",
   "2026-11-04 20:00",
@@ -336,6 +348,8 @@
   "2026-11-23 12:30",
   "2026-11-23 15:00",
   "2026-11-23 18:00",
-  "2026-11-23 20:00"
+  "2026-11-23 20:00",
+  "2026-11-24 09:00",
+  "2026-11-24 12:30"
  ]
 }
