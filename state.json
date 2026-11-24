@@ -138,6 +138,18 @@
    "key": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
    "ctl": 226,
    "created": "2026-11-24T09:01+05:00"
+  },
+  "228": {
+   "kind": "news",
+   "key": "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
+   "ctl": 229,
+   "created": "2026-11-24T18:00+05:00"
+  },
+  "230": {
+   "kind": "news",
+   "key": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+   "ctl": 231,
+   "created": "2026-11-24T18:01+05:00"
   }
  },
  "seen_news": [
@@ -228,7 +240,9 @@
   "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
   "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
   "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
-  "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang"
+  "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+  "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
+  "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
  ],
  "tips_done": [
   "NotebookLM",
@@ -251,8 +265,6 @@
  ],
  "queue_done": [],
  "slots_done": [
-  "2026-11-04 15:00",
-  "2026-11-04 18:00",
   "2026-11-04 20:00",
   "2026-11-05 09:00",
   "2026-11-05 12:30",
@@ -350,6 +362,8 @@
   "2026-11-23 18:00",
   "2026-11-23 20:00",
   "2026-11-24 09:00",
-  "2026-11-24 12:30"
+  "2026-11-24 12:30",
+  "2026-11-24 15:00",
+  "2026-11-24 18:00"
  ]
 }
