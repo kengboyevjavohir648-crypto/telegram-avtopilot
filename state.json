@@ -150,6 +150,18 @@
    "key": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
    "ctl": 231,
    "created": "2026-11-24T18:01+05:00"
+  },
+  "232": {
+   "kind": "news",
+   "key": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+   "ctl": 233,
+   "created": "2026-11-25T09:02+05:00"
+  },
+  "234": {
+   "kind": "news",
+   "key": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
+   "ctl": 235,
+   "created": "2026-11-25T09:03+05:00"
   }
  },
  "seen_news": [
@@ -242,7 +254,9 @@
   "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
   "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
   "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
-  "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+  "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+  "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+  "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/"
  ],
  "tips_done": [
   "NotebookLM",
@@ -265,7 +279,6 @@
  ],
  "queue_done": [],
  "slots_done": [
-  "2026-11-05 09:00",
   "2026-11-05 12:30",
   "2026-11-05 15:00",
   "2026-11-05 18:00",
@@ -364,6 +377,7 @@
   "2026-11-24 12:30",
   "2026-11-24 15:00",
   "2026-11-24 18:00",
-  "2026-11-24 20:00"
+  "2026-11-24 20:00",
+  "2026-11-25 09:00"
  ]
 }
