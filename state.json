@@ -168,6 +168,18 @@
    "key": "ChatPDF",
    "ctl": 237,
    "created": "2026-11-25T12:30+05:00"
+  },
+  "238": {
+   "kind": "news",
+   "key": "https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware",
+   "ctl": 239,
+   "created": "2026-11-25T18:00+05:00"
+  },
+  "240": {
+   "kind": "news",
+   "key": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+   "ctl": 241,
+   "created": "2026-11-25T18:00+05:00"
   }
  },
  "seen_news": [
@@ -262,7 +274,9 @@
   "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
   "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
   "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
-  "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/"
+  "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
+  "https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware",
+  "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/"
  ],
  "tips_done": [
   "NotebookLM",
@@ -286,8 +300,6 @@
  ],
  "queue_done": [],
  "slots_done": [
-  "2026-11-05 18:00",
-  "2026-11-05 20:00",
   "2026-11-06 09:00",
   "2026-11-06 12:30",
   "2026-11-06 15:00",
@@ -385,6 +397,8 @@
   "2026-11-24 20:00",
   "2026-11-25 09:00",
   "2026-11-25 12:30",
-  "2026-11-25 15:00"
+  "2026-11-25 15:00",
+  "2026-11-25 18:00",
+  "2026-11-25 20:00"
  ]
 }
