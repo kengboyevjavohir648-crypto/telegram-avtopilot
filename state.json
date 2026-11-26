@@ -192,6 +192,18 @@
    "key": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
    "ctl": 245,
    "created": "2026-11-26T09:02+05:00"
+  },
+  "247": {
+   "kind": "news",
+   "key": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+   "ctl": 248,
+   "created": "2026-11-26T18:01+05:00"
+  },
+  "249": {
+   "kind": "news",
+   "key": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+   "ctl": 250,
+   "created": "2026-11-26T18:04+05:00"
   }
  },
  "seen_news": [
@@ -290,7 +302,9 @@
   "https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware",
   "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
   "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
-  "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent"
+  "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+  "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+  "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
  ],
  "tips_done": [
   "NotebookLM",
@@ -314,9 +328,6 @@
  ],
  "queue_done": [],
  "slots_done": [
-  "2026-11-06 15:00",
-  "2026-11-06 18:00",
-  "2026-11-06 20:00",
   "2026-11-07 09:00",
   "2026-11-07 12:30",
   "2026-11-07 15:00",
@@ -413,6 +424,9 @@
   "2026-11-25 18:00",
   "2026-11-25 20:00",
   "2026-11-26 09:00",
-  "2026-11-26 12:30"
+  "2026-11-26 12:30",
+  "2026-11-26 15:00",
+  "2026-11-26 18:00",
+  "2026-11-26 20:00"
  ]
 }
