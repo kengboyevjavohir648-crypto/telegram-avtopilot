@@ -228,6 +228,12 @@
    "key": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
    "ctl": 258,
    "created": "2026-11-28T09:02+05:00"
+  },
+  "259": {
+   "kind": "tip",
+   "key": "Remove.bg",
+   "ctl": 260,
+   "created": "2026-11-28T12:30+05:00"
   }
  },
  "seen_news": [
@@ -346,7 +352,8 @@
   "Google Lens",
   "Gamma",
   "ChatPDF",
-  "Bing Image Creator"
+  "Bing Image Creator",
+  "Remove.bg"
  ],
  "reels_done": [
   "01_top5_ai_2026.mp4",
@@ -356,8 +363,6 @@
  ],
  "queue_done": [],
  "slots_done": [
-  "2026-11-08 12:30",
-  "2026-11-08 15:00",
   "2026-11-08 18:00",
   "2026-11-08 20:00",
   "2026-11-09 09:00",
@@ -455,6 +460,8 @@
   "2026-11-27 15:00",
   "2026-11-27 18:00",
   "2026-11-27 20:00",
-  "2026-11-28 09:00"
+  "2026-11-28 09:00",
+  "2026-11-28 12:30",
+  "2026-11-28 15:00"
  ]
 }
